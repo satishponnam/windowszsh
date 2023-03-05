@@ -23,6 +23,8 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 #Download mononoki fonts from nerdfonts https://www.nerdfonts.com/font-downloads
     extract and install one by one and then
 
+_Install code in windows not on subsystem_
+
 ```
 code ~/.zshrc
 ```
@@ -90,7 +92,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## Enable plugins by adding them to .zshrc.
  - Open .zshrc
 	
-	`nvim ~/.zshrc`
+	`code ~/.zshrc`
 	
  -  Find the line which says `plugins=(git)`.
 	
